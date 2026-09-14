@@ -645,9 +645,13 @@ B.Sc. Artificial Intelligence & Machine Learning | AI/ML Enthusiast
 
 Built as part of my Artificial Intelligence Internship at DecodeLabs.
 
-##screenshots
-##INPUT
+## screenshots
+## INPUT
 <img width="1897" height="912" alt="Screenshot 2026-09-14 180428" src="https://github.com/user-attachments/assets/2944996c-ddeb-45d0-ad52-23f4d59b4e3b" />
 
+## OUTPUT
+<img width="1897" height="910" alt="Screenshot 2026-09-14 180449" src="https://github.com/user-attachments/assets/d4106048-2747-4930-913b-5767a69dcc13" />
 
+## NO-MATCH
+<img width="1907" height="917" alt="Screenshot 2026-09-14 180526" src="https://github.com/user-attachments/assets/25a9f1b2-19b1-4f96-8cf5-13dc481723ef" />
 
