@@ -581,6 +581,8 @@ Your actual application works like this:
                        │
                        ▼
                 🎨 Streamlit UI
+
+
 🔄 Project Architecture
 You can also show your architecture in your documentation/presentation as:
 ┌──────────────────────────────────────┐
@@ -636,6 +638,7 @@ You can also show your architecture in your documentation/presentation as:
 │  📚 Skills to Learn                  │
 │  💡 Why This Career                  │
 └──────────────────────────────────────┘
+
 
 ## 👩‍💻 Author
 
