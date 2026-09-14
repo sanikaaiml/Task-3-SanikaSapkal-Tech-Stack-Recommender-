@@ -583,61 +583,64 @@ Your actual application works like this:
                 🎨 Streamlit UI
 
 
-🔄 Project Architecture
+## 🔄 Project Architecture
+
 You can also show your architecture in your documentation/presentation as:
-┌──────────────────────────────────────┐
-│             USER INTERFACE           │
-│              Streamlit               │
-│                                      │
-│  User enters technical skills        │
-└──────────────────┬───────────────────┘
+
+```text
+┌─────────────────────────────────────┐
+│            USER INTERFACE           │
+│              Streamlit              │
+│                                     │
+│     User enters technical skills    │
+└──────────────────┬──────────────────┘
                    │
                    ▼
-┌──────────────────────────────────────┐
-│          INPUT VALIDATION             │
-│                                      │
-│  Minimum 3 skills                    │
-│  Empty input handling                │
-│  Weak/no-match handling              │
-└──────────────────┬───────────────────┘
+┌─────────────────────────────────────┐
+│          INPUT VALIDATION           │
+│                                     │
+│  • Minimum 3 skills                 │
+│  • Empty input handling             │
+│  • Weak/no-match handling           │
+└──────────────────┬──────────────────┘
                    │
                    ▼
-┌──────────────────────────────────────┐
-│       RECOMMENDATION ENGINE          │
-│                                      │
-│  TF-IDF Vectorization                │
-│            +                         │
-│  Cosine Similarity                   │
-└──────────────────┬───────────────────┘
+┌─────────────────────────────────────┐
+│        RECOMMENDATION ENGINE        │
+│                                     │
+│  TF-IDF Vectorization               │
+│             +                       │
+│  Cosine Similarity                  │
+└──────────────────┬──────────────────┘
                    │
                    ▼
-┌──────────────────────────────────────┐
-│             DATASET                  │
-│                                      │
-│       raw_skills.csv                 │
-│                                      │
-│       25+ Career Roles               │
-└──────────────────┬───────────────────┘
+┌─────────────────────────────────────┐
+│               DATASET               │
+│                                     │
+│        raw_skills.csv               │
+│        25+ Career Roles              │
+└──────────────────┬──────────────────┘
                    │
                    ▼
-┌──────────────────────────────────────┐
-│          RANKING SYSTEM              │
-│                                      │
-│  Calculate similarity                │
-│  Sort scores                         │
-│  Select Top 3                        │
-└──────────────────┬───────────────────┘
+┌─────────────────────────────────────┐
+│          RANKING SYSTEM             │
+│                                     │
+│  • Calculate similarity scores      │
+│  • Sort scores                      │
+│  • Select Top 3                     │
+└──────────────────┬──────────────────┘
                    │
                    ▼
-┌──────────────────────────────────────┐
-│           RESULTS                    │
-│                                      │
-│  🏆 Top 3 Careers                    │
-│  📊 Match Score                      │
-│  🧩 Matched Skills                   │
-│  📚 Skills to Learn                  │
-│  💡 Why This Career                  │
-└──────────────────────────────────────┘
+┌─────────────────────────────────────┐
+│               RESULTS               │
+│                                     │
+│  🏆 Top 3 Careers                   │
+│  📊 Match Score                     │
+│  🧩 Matched Skills                  │
+│  📚 Skills to Learn                 │
+│  💡 Why This Career                 │
+└─────────────────────────────────────┘
+```
 
 
 ## 👩‍💻 Author
