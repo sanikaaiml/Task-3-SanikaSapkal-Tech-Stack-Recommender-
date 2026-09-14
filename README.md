@@ -644,3 +644,10 @@ You can also show your architecture in your documentation/presentation as:
 B.Sc. Artificial Intelligence & Machine Learning | AI/ML Enthusiast
 
 Built as part of my Artificial Intelligence Internship at DecodeLabs.
+
+##screenshots
+##INPUT
+<img width="1897" height="912" alt="Screenshot 2026-09-14 180428" src="https://github.com/user-attachments/assets/2944996c-ddeb-45d0-ad52-23f4d59b4e3b" />
+
+
+
